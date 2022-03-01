@@ -1,0 +1,43 @@
+.container-Article3-Main{
+  display: inline-block;
+  background-color: #21293c;
+  padding: 30px;
+  width: 90%;
+}
+
+.BIO{
+    display: flex;
+    margin-top: 30px;
+}
+
+.imgBIO{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.person{
+    margin-left: 25px;
+}
+
+.text-Article3-Main{
+   color: white;   
+   margin-top: 25px;
+}
+
+.name-Article3-Main{
+    color: white;
+    font-weight: bold;
+}
+
+.title-Article3-Main{
+    color: white;
+}
+
+
+@media only screen and (max-width:860px){ 
+    .container-Article3-Main{
+        margin-bottom: 25px;
+        width: 100%;
+    }
+}

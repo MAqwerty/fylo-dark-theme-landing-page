@@ -1,0 +1,45 @@
+.container-Article1-Main{
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  padding: 50px;
+}
+
+.Parts-Article1-Main{
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.h3-Article1-Main{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.p-Article1-Main{
+    color: white;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.SVG-Article1-Main{
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width:750px){ 
+    .container-Article1-Main{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .Parts-Article1-Main{
+        display: inline-block;
+        width: 100%;
+        margin-top: 100px;
+    }
+}

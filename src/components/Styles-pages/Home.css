@@ -1,0 +1,230 @@
+body{
+    width: 98VW;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #1c2230f2;
+    background-image:  url(./../../assets/svg/bg-curvy-desktop.svg),    
+    linear-gradient(#1c2230f2 50%, #181e2a 50%); 
+}
+
+.header-img{
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+
+}  
+
+.header-h1{
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+
+.header-p{
+    display: block;
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.header-BTN{
+    width: 300px;
+    height: 60px;
+    background-image: linear-gradient(to right,#4fc7d5,#319bb6);
+    border: none;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.10em;
+    cursor: pointer;
+}
+
+.header-BTN:hover{
+    background-image:linear-gradient(to right,#319bb6,#4fc7d5);
+    border: #319bb6 solid 2px;
+}
+.header-BTN:active{
+    background-image: linear-gradient(to right,#319bb6,#4fc7d5);
+}
+
+.article1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.article3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.quotes{
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    z-index: -1;
+}
+
+.article4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+
+footer{
+    background-color: #0c1524;
+    width: 98vw;
+    height: max-content;
+    padding: 50px;
+    padding-top: 175px;
+}
+
+.container-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.div-footer1{
+    margin-top: 75px;
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.div-footer2{
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.div-footer3{
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.div-footer4{
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.div-footer5{
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 7%;
+}
+
+.div-footer-part{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.p-footer{
+    color: rgba(255, 255, 255, 0.702);
+    margin-left: 25px;
+}
+
+.link-footer{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.link-footer:hover{
+   text-decoration: underline 5px ;
+   text-underline-offset: 5px;
+   color: #4aa69b;
+}
+
+.SVG-FOOTER path:hover{
+    fill:#0084ff;
+}
+
+@media only screen and (max-width:1200px){
+    .quotes{
+        position: absolute;
+        top: -27px;
+        left: -10px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .quotes{
+        position: absolute;
+        top: -40px;
+        left: -10px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width:860px){ 
+    .article3{      
+        flex-direction: column;
+        height: max-content;
+    }
+    .container-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .div-footer{
+        width: 90%;
+    }
+    .div-footer5{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:750px){ 
+    .header-img{
+        width: 75%;
+    }
+    .header-h1{
+        width: 90%;      
+    }
+    .header-p{
+        width: 90%;
+    } 
+}
+
+
+@media only screen and (max-width:400px){
+    .header-BTN{
+        width: 85%;
+    }
+}

@@ -1,0 +1,110 @@
+.container-Article4-Main{
+    width: 70%;
+    padding: 100px;
+    padding-top:  50px;
+    padding-bottom: 50px;
+    background-color: #1c2230;
+    position: relative;
+    top: 125px;
+}
+
+.h1-Article4-Main{
+    color: white;
+    text-align: center;
+}
+
+.p-Article4-Main{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form-Article4-Main{
+    display: flex;
+    width: 100%;
+}
+
+.input-Article4-Main{
+width: 65%;
+height: 50px;
+border: none;
+outline: none;
+border-radius: 50px;
+margin-top: 50px;
+font-weight: bold;
+font-size: 1em;
+cursor: pointer;
+padding-left: 50px;
+}
+
+.BTN-Article4-Main{
+    width: 30%;
+    height: 50px;
+    background-image: linear-gradient(to right,#4fc7d5,#319bb6);
+    border: none;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 10px;
+}
+.BTN-Article4-Main:hover{
+    background-image:linear-gradient(to right,#319bb6,#4fc7d5);
+    border: #319bb6 solid 2px;
+}
+.BTN-Article4-Main:active{
+    background-image: linear-gradient(to right,#319bb6,#4fc7d5);
+}
+
+.p-valid-email{
+    color: rgba(255, 0, 0, 0.7);
+    position: absolute;
+    bottom: 15px;
+    font-size: small;
+    display: none;
+}
+
+@media only screen and (max-width:900px){
+    .input-Article4-Main{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    }
+    .BTN-Article4-Main{
+        width: 100%;
+        margin-top: 20px;       
+    }
+    .form-Article4-Main{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:860px){ 
+    .container-Article4-Main{
+        width: 80%;
+        padding: 75px;
+    }
+    .p-valid-email{
+        width: 100%;
+        bottom: 50px;
+        left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:560px){ 
+    .container-Article4-Main{
+        padding: 25px;
+    } 
+    .p-valid-email{
+        width: 100%;
+        bottom: 5px;
+        left: 0;
+        text-align: center;
+    }
+} 
+  
