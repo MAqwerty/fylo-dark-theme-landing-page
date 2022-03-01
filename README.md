@@ -1,4 +1,4 @@
-![header image](https://raw.github.com/MAqwerty/fylo-dark-theme-landing-page/master/design.jpg)
+![header image](https://raw.github.com/MAqwerty/fylo-dark-theme-landing-page/master/Design.jpg)
 
 # Getting Started with Create React App
 
